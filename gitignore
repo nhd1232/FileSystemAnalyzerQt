@@ -1,0 +1,26 @@
+# Сборка
+build/
+build-*/
+cmake-build-*/
+out/
+
+# Qt Creator
+.qtcreator/
+CMakeLists.txt.user*
+*.pro.user*
+.qtc_clangd/
+
+# Артефакты компиляции
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
